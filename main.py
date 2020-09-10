@@ -9,7 +9,7 @@ wcss=[]
 for i in range(1,10):
     kmeans=KMeans(i)
     kmeans.fit(x)
-    wcss.append(kmeans.inertia_)
+    wcss.append(kmeans.inertia_) #the sum of squared distances of samples to their closest cluster center.
 
 print(wcss)
 plt.plot(range(1,10),wcss)

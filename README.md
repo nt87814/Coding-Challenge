@@ -25,4 +25,5 @@ The libraries I used were pandas, matplotlib, and sklearn.
 First I computed the k-means clustering algorithm with different values of k from 1 to 10.
 For each k, I calculated the total within-cluster sum of square or wss.
 Then I plotted the curve of wss with the number of clusters k.
-The location where the curve bends is considered as an indicator of the appropriate number of clusters which resulted in 2.5. 
+The location where the curve bends is considered the optimal number of clusters which resulted in where k = 2-3.
+Sources: https://www.geeksforgeeks.org/elbow-method-for-optimal-value-of-k-in-kmeans/ 
